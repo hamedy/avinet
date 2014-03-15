@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/add_polygon" android:title="@string/add_polygon"></item>
+    <item android:id="@+id/remove_polygon" android:title="@string/remove_polygon"></item>
+    <group android:id="@+id/scale"
+        android:checkableBehavior="single">
+        <item android:id="@+id/enlarge"
+              android:title="@string/enlarge" />
+        <item android:id="@+id/shrink"
+              android:title="@string/shrink" />
+    </group>
+</menu>

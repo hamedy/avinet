@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="no.avinet.avinettask.Map" >
+
+	<fragment 
+	          android:id="@+id/map"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:name="com.google.android.gms.maps.MapFragment"
+	          />
+	
+	<ImageButton
+	    android:id="@+id/rotate_clockwise"
+	    android:layout_width="50dp"
+	    android:layout_height="100dp" 
+	    android:layout_gravity="right|center_vertical"
+	    android:padding="4dp"
+	    android:src="@drawable/clockwise"
+	    android:onClick="rotateClockwise" 
+	    android:visibility="gone"
+	    android:contentDescription="@string/image_description_c"/>
+	
+	<ImageButton
+	    android:id="@+id/rotate_counter_clockwise"
+	    android:layout_width="50dp"
+	    android:layout_height="100dp"
+	    android:layout_gravity="left|center_vertical"
+	    android:padding="4dp"
+	    android:src="@drawable/counter_clockwise"
+	    android:onClick="rotateCounterClockwise"
+	    android:visibility="gone"
+	    android:contentDescription="@string/image_description_cc"/>
+	
+	<TextView 
+	    android:id="@+id/offset_points"
+		 android:layout_width="185dp"
+		 android:layout_height="55dp"
+		 android:layout_gravity="bottom"
+		 android:padding="4dp"
+		 android:layout_marginLeft="60dp"
+		 android:layout_marginBottom="4dp"
+		 android:background="#79000000"
+		 android:visibility="gone"
+		 android:textSize="18sp"
+		 android:textColor="#FFFFFF"/>
+	<TextView 
+	    android:id="@+id/offset_points2"
+		 android:layout_width="185dp"
+		 android:layout_height="55dp"
+		 android:layout_gravity="bottom"
+		 android:padding="4dp"
+		 android:layout_marginLeft="250dp"
+		 android:layout_marginBottom="4dp"
+		 android:background="#79000000"
+		 android:visibility="gone"
+		 android:textSize="18sp"
+		 android:textColor="#FFFFFF"/>
+	
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Avinet Task</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome to Avinet task application! </string>
+    
+    <string name="add_polygon">Add Polygon</string>
+    <string name="remove_polygon">Remove Polygon</string>
+    <string name="enlarge">Enlarge 100 times</string>
+    <string name="shrink">Shrink 100 times</string>
+    
+    <string name="home_button">Go to Map</string>
+    <string name="hint">Enter your own welcome message here!</string>
+    
+    <string name="image_description_c">rotate clockwise</string>
+    <string name="image_description_cc">rotate counter clockwise</string>
+
+</resources>
